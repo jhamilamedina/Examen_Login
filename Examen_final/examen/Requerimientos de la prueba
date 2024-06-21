@@ -1,0 +1,36 @@
+Siguiendo las instrucciones especificadas en Slack:
+
+https://holberton-school-org.slack.com/archives/C06S4BVQWDT/p1718422065946259 (Link C22)
+https://holberton-school-org.slack.com/archives/C05ESN9T5P1/p1718421786822959 (Link Part-Time)
+
+Funcionalidad a desarrollar:
+
+- Crea un login que solicite el email y el password a un usario para iniciar sesion en la aplicacion, si las credenciales
+  del usuario son correctas debe redirigirlo a otra pagina y en dicha pagina se debe de mostrar el mensaje:
+  "Welcome [user_email]"
+
+  - El modelo de datos para tu base de datos lo encuentras en el siguiente link:
+    https://github.com/MiguelColmenares94/test-data-model/blob/main/test_data_model.jpg
+  
+  - Debes registrar a tu base de datos los siguientes usuarios manualmente (desde el interprete SQL):
+    
+    Usuario 1
+    email: holbieC22@holbertonstudents.com
+    password: C22daBest
+    
+    Usuario 2
+    email: staff@holbertonschool.com
+    password: holbertonFTW
+    
+  - Los archivos HTML para el test lo consigues en el siguiente link:
+    https://gist.github.com/MiguelColmenares94/3a1bd0feeea1ff0fe28fffde1547ea25
+
+    Nota: Para esta funcionalidad solo necesitas los archivos "login.html" y "welcome.html"
+
+Funcionalidad extra (esto es opcional solo si has terminado con la primera funcionalidad):
+
+- Crea una pagina de registro para generar nuevos usuarios y guardarlos en la base de datos:
+
+  - El modelo de la base de datos sigue siendo el mismo que en la funcionalidad anterior.
+  
+  - Debes utilizar el archivo "register.html" para realizar esta funcionalidad.
