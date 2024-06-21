@@ -1,0 +1,12 @@
+CREATE DATABASE Login
+
+USE Login;
+
+CREATE TABLE Users (
+  id int AUTO_INCREMENT PRIMARY KEY,
+  email VARCHAR(200) NOT NULL unique,
+  password VARCHAR(100) NOT NULL
+  );
+
+   INSERT INTO Users (email, password) VALUES ('holbieC22@holbertonstudents.com', 'C22daBest');
+   INSERT INTO Users (email, password) VALUES ('staff@holbertonschool.com', 'holbertonFTW');
